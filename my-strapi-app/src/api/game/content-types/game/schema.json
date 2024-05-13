@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "Game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Cost": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "enumeration",
+      "enum": [
+        "platformer",
+        "shooter",
+        "racing",
+        "sick cool awesome souls like",
+        "sim"
+      ]
+    },
+    "Length": {
+      "type": "string"
+    }
+  }
+}
